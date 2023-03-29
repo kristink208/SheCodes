@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week1</title>
+
+    <!-- The below HTML using 100% height makes the gradient colors take up the whole page-->
+    <!-- The below img display block means it will stay centered no matter what -->
+    <!-- PADDING puts color space around the whole text/img -->
+    <!-- PADDING numbers orders: top, right, bottom,then left -->
+    <!-- MARGIN puts space around colored chunk/box -->
+
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      h1 {
+        color: #885df1;
+        font-size: 48px;
+        font-weight: 100;
+        text-align: center;
+        text-decoration: underline;
+      }
+      h2 {
+        color: #272044;
+        font-size: 30px;
+        text-align: center;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        padding: 15px 30px;
+        background: transparent;
+        color: #885df1;
+        border: 1px solid #885df1;
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        font-size: 18px;
+        text-decoration: none;
+        transition: all 200ms linear;
+      }
+      button:hover {
+        background: white;
+        color: blueviolet;
+        cursor: grab;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+      li {
+        font-size: 25px;
+        width: auto;
+        display: inline;
+        margin: 0 auto;
+        padding: 15px 30px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+      .premium-courses {
+        color: red;
+      }
+      .free-coders {
+        color: blue;
+      }
+      .story-stories {
+        color: green;
+      }
+      .contact-details {
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .contact-platform {
+        color: #885df1;
+      }
+
+      .info-heading {
+        color: orange;
+        font-weight: bolder;
+        text-align: center;
+      }
+
+      img {
+        width: 300px 300px;
+        display: block;
+        margin: 0 auto 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>SheCodes</h1>
+
+    <h2>Coding Workshop</h2>
+
+    <button>Apply now!</button>
+
+    <!-- This UL indicates it is a LIST-->
+
+    <ul>
+      <li>
+        <a
+          href="https://shecodes.io/students"
+          target="_blank"
+          class="free-coders"
+        >
+          Coders
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://shecodes.io/workshops"
+          target="_blank"
+          class="premium-courses"
+        >
+          Courses
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://shecodes.io/stories"
+          target="_blank"
+          class="story-stories"
+        >
+          Stories
+        </a>
+      </li>
+    </ul>
+
+    <!-- This HR creates a horizontal line across the screen-->
+    <hr />
+
+    <div class="info-heading">More Info</div>
+
+    <img
+      src="https://www.shutterstock.com/image-photo/young-woman-working-computer-table-260nw-753780223.jpg"
+      alt="woman coding"
+    />
+
+    <div class="contact-details">
+      <span class="contact-platform">Email:</span>
+      hello@shecodes.io
+      <span class="contact-platform">Instagram:</span>
+      @shecodes.io
+    </div>
+  </body>
+</html>
